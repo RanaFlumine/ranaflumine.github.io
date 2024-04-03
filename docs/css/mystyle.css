@@ -1,8 +1,16 @@
 @import url(colours.css);
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 body {
-    background-color: #F9D3E0;
-    font-family: 'Questrial';
+    background-color: var(--bg_colour);
+    font-family: "Questrial", sans-serif;
     color: var(--text_colour);
 }
 
@@ -19,22 +27,38 @@ hr {
     color: var(--text_colour);
 }
 
-.site_header {
+header {
     margin: auto;
     text-align: center;
+    padding-bottom: 5px;
 }
 
 .content {
-    width: 85%;
+    width: 50%;
     text-align: center;
     margin: auto;
     font-size:18px;
 }
 
-.site_footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 150px;
-    width: 100%;
+.content > p {
+    text-align: justify;
+}
+
+footer {
+    padding-top: 5px;
+    justify-content: center;
+}
+
+.badges_container {
+    margin-top: 12px;
+    display: flex;
+    row-gap: 4px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.badges_container * {
+    height: 31px;
+    width: 88px;
 }
