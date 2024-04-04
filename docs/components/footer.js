@@ -27,7 +27,7 @@ class Footer extends HTMLElement {
             <a ref="noreferrer" href="https://www.mozilla.org/en-US/firefox/new/" title="firefox good" alt="tested on firefox" target="_blank">
               <img src="./badges/firefox4.gif">
             </a>
-            <img src="./badges/web3.gif">
+            <img src="./badges/web3.gif" title="i hate web 3.0" alt="keep the web free, say no to web 3">
         </div>
     </footer>
     `;
