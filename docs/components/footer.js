@@ -28,6 +28,9 @@ class Footer extends HTMLElement {
               <img src="./badges/firefox4.gif">
             </a>
             <img src="./badges/web3.gif" title="i hate web 3.0" alt="keep the web free, say no to web 3">
+            <a ref="noreferrer" href="https://rinorpb.github.io/" title="peanut butter? power bottom? who knows" alt="pb" target="_blank">
+              <img src="./badges/pb.png">
+            </a>
         </div>
     </footer>
     `;

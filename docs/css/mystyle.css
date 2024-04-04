@@ -16,6 +16,7 @@ body {
 
 .navlink {
     color: #d92edf;
+
 }
 
 hr {
@@ -40,6 +41,12 @@ header {
     font-size:18px;
 }
 
+@media screen and (max-width: 600px) {
+    .content {
+        width: 80%;
+    }
+}
+
 .content > p {
     text-align: justify;
 }
@@ -61,4 +68,40 @@ footer {
 .badges_container * {
     height: 31px;
     width: 88px;
+}
+
+.link_button {
+    display: flex; 
+    width: 150px; 
+    height: 50px; 
+    text-align: center;
+    color: var(--text_colour);
+    text-decoration: none;
+}
+
+.book_content {
+    width: 50%;
+    margin: auto;
+    font-size:18px;
+}
+
+.book_content > p {
+    text-align: justify;
+}
+
+.book_post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book_post > img {
+    width: 30%; 
+    min-width: 200px;
+    aspect-ratio: 1/1;
+}
+
+.bookpage {
+    width: 70%;
+    text-align: center;
 }
